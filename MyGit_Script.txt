@@ -1,9 +1,0 @@
-git config --global http.proxy https://cnummer:passwort@194.40.39.32:8080
-
-echo # MyGit >> README.md
-
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/GePachl/MyGit.git
-git push -u origin master 
