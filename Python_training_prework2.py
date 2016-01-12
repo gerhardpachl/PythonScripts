@@ -7,7 +7,7 @@ using the pandas package based on tutorial: Getting started with Kaggle
 # initialize pandas
 import pandas
 
-# get the passenger data
+# get the passenger training set data
 titanic = pandas.read_csv("C:/Users/C924016/MyPythons/CSV/train.csv")
 print(titanic.describe())
 print(titanic.head(5))
